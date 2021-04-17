@@ -1,0 +1,194 @@
+.title-line {
+	height: 28px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 28px;
+	text-align: center;
+}
+
+.title-line .tit {
+	height: 56px;
+	line-height: 56px;
+	margin: 0 auto;
+	padding: 0 20px;
+	font-size: 40px;
+	background: #fff;
+	text-align: center;
+}
+
+.title-line1 {
+	margin-bottom: 28px;
+	text-align: center;
+}
+
+.title-line1 .tit {
+	height: 56px;
+	line-height: 56px;
+	margin: 0 auto;
+	padding: 0 20px;
+	font-size: 14px;
+	background: #fff;
+	text-align: center;
+}
+
+.line {
+	float: left;
+	border-right: 1px solid #ddd;
+	height: 300px;
+}
+
+
+.qrcode-login .qrcode-footer {
+	margin-top: 60px;
+	height: 155px;
+	width: 130%;
+	margin-left: -70px;
+	background: url(../img/user_footer.png) 0 -7px no-repeat;
+}
+
+.qrcode-login {
+	position: relative;
+	/* width: 350px; */
+}
+
+.qrcode-login .qrcode-img {
+	margin-left: 280px;
+	width: 60px;
+	height: 140px;
+	background: url(../img/user_tv.gif) 50% no-repeat;
+}
+
+.qrcode-login .qrcode-box {
+	margin-top: 75px;
+	height: 150px;
+	width: 150px;
+	margin: 0px auto;
+	background-image: url(../img/sao.png);
+	position: absolute;
+	top: 40px;
+	left: 96px;
+}
+
+.qrcode-login .qrcode-box .qrcode-tips {
+	z-index: 10;
+	position: absolute;
+	width: 480px;
+	height: 192px;
+	top: -40px;
+	left: 50%;
+	margin-left: -240px;
+	background: url(../img/user_bi.png) no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	opacity: 0;
+	-webkit-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	transition: opacity .5s;
+}
+
+.qrcode-login .qrcode-box .qrcode-tips.mouse {
+	opacity: 1;
+}
+
+.txt {
+	margin-left: 195px;
+}
+
+.txt1 {
+	margin-left: 170px;
+}
+
+.txt2 {
+	margin-left: 210px;
+}
+
+#psw {
+	margin-top: 40px;
+}
+
+#psw>.list-inline>li>a:focus {
+	color: #2036ff;
+}
+
+.form-control1 {
+	margin-left: 55px;
+	width: 318px;
+	height: 38px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control1:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.form-control3 {
+	margin-left: 55px;
+	width: 190px;
+	height: 38px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control3:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.form-control2 {
+	margin-left: 55px;
+	width: 130px;
+	height: 39px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control2:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+#zc:hover {
+	cursor: not-allowed;
+}
